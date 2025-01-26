@@ -16,10 +16,11 @@ import SearchProducts from "./components/searchbar/searchproduct";
 export default function Home() {
   return (
     <div>
+      <Hero/>
 <SearchProducts/>      
 <SanityHomeData/>
 <SanityChefData/>
-<Hero/>
+
 <FirstHero/>
 <Sechero/>
 <ThirdSec/>
