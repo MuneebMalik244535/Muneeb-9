@@ -18,7 +18,7 @@ export default function Home() {
     <div>
 <SearchProducts/>      
 <SanityHomeData/>
-
+<SanityChefData/>
 <Hero/>
 <FirstHero/>
 <Sechero/>
