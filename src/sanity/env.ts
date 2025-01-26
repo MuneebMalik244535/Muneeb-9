@@ -11,6 +11,11 @@ export const projectId = assertValue(
   'Missing environment variable: NEXT_PUBLIC_SANITY_PROJECT_ID'
 )
 
+// Log the environment variables for debugging
+console.log("Sanity API Version:", apiVersion)
+console.log("Sanity Dataset:", dataset)
+console.log("Sanity Project ID:", projectId)
+
 function assertValue<T>(v: T | undefined, errorMessage: string): T {
   if (v === undefined) {
     throw new Error(errorMessage)
